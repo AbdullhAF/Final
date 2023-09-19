@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400;500&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css.map">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./CSS/final_2.css">
+    <title>E-Shop</title>
+  </head>
+  <body>
+    <!-- Start nav -->
+    <div class="slides">
+      <div class="slide_inner">
+        <div class="slide show"><img src="./imges/hero.png" alt></div>
+        <div class="slide"> <img src="./imges/1.jpg" alt></div>
+        <div class="slide"><img src="./imges/big1.png" alt></div>
+      </div>
+      <i class="fas fa-arrow-right next active"></i>
+      <i class="fas fa-arrow-left prev"></i>
+      <div class="pagition">
+      </div>
+      <nav class="navbar nav_2 navbar-expand-lg py-4 ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./imges/logo.png"
+              alt="logo"><img src="./imges/logo2.png" alt="logo2">E-Shop</a>
+          <div
+            class="nav-rigth order-0 order-lg-1 d-flex ms-auto align-items-center">
+            <button class="navbar-toggler order-1" type="button"
+              data-bs-toggle="collapse" data-bs-target="#nav_link"
+              aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="icons d-flex ms-auto">
+              <i class="fas fa-search"></i>
+              <a class="cartBtn text-decoration-none" data-bs-toggle="offcanvas"
+                href="#cart"
+                data-bs-target="#cart">
+                <i class="fas fa-cart-shopping "></i>
+              </a>
+              <i class="fas fa-user User"></i>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse  " id="nav_link">
+            <ul class="navbar-nav ms-auto mx-auto">
+              <li class="nav-item">
+                <a class="nav-link Men" aria-current="page"
+                  href="#mune" data-bs-toggle="offcanvas" data-bs-target="#mune">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kids</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="text ">
+          <h1>Sale of the summer collection</h1>
+          <a href="./final_2page_2.html" class="icon"><i
+              class="fas fa-arrow-right"></i></a>
+          <a href="./final_2page_2.html" class="shop">Shop now</a>
+        </div>
+      </div>
+      <div class="discount"data-aos="fade-right">
+        <div class="icons_text d-flex justify-content-around ms-auto">
+          <div class="icon_text">
+            <i class="fas fa-truck-fast"></i>
+            <div>
+              <h6>Free Shipping</h6>
+              <p>On purchases over $199</p></div>
+          </div>
+          <div class="icon_text">
+            <i class="fas fa-face-smile"></i>
+            <div>
+              <h6>99% Satisfied Customers</h6>
+              <p>Our clients' opinions
+                speak for themselves</p>
+            </div>
+          </div>
+          <div class="icon_text">
+            <i class="fas fa-comment-dollar"></i>
+            <div>
+              <h6>Originality Guaranteed</h6>
+              <p>30 days warranty for each
+                product from our store</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="big_img">
+        <div class="active imges " data-aos="flip-right" >
+          <img src="./imges/big1.png " alt id="image1">
+          <div class="text">
+            <h4>New arrivals are now in!</h4>
+            <button class="btn">Show collection</button>
+          </div>
+
+        </div>
+        <div class="imges">
+          <img src="./imges/big2.png" alt id="image2">
+          <div class="text">
+            <h4>Basic t-shirts $29,99</h4>
+            <button class="btn">More details</button>
+          </div>
+        </div>
+        <div class="imges">
+          <img src="./imges/big3.png" alt id="image3">
+          <p>-50%</p>
+          <div class="text">
+            <h4>Sale this summer</h4>
+            <button class="btn">VIEW ALL</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End nav -->
+    <!-- Start Selected -->
+    <div class="Selected "data-aos="fade-right" >
+      <div class="container">
+        <div class="text_button d-flex justify-content-between mb-5">
+          <h5>Selected just for you</h5>
+          <a href="./final_2page_2.html" target="_self" class="btn ">Show more</a>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper ">
+            <!-- Slides -->
+            <div class="swiper-slide ">
+              <a href="./final_2page_2.html" target="_self"><img
+                  src="./imges/broduct1.png" alt="broduct1"></a>
+              <p class="nsap">30%</p>
+              <p class="mt-4">T-Shirt Summer Vibes</p>
+              <p class="different">$89.99 <span class="text-black-50 px-2">$119.99</span></p>
+            </div>
+            <div class="swiper-slide ">
+              <a href="./final_2page_2.html" target="_self"><img
+                  src="./imges/broduct2.png" alt="broduct2"></a>
+              <p class="mt-4">Loose Knit 3/4 Sleeve</p>
+              <p class="big_text ">$119.99</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="./final_2page_2.html" target="_self"><img
+                  src="./imges/broduct3.png" alt="broduct3"></a>
+              <p class="mt-4">Basic Slim Fit T-Shirt</p>
+              <p class="big_text">$79.99</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="./final_2page_2.html" target="_self"><img
+                  src="./imges/broduct4.png" alt="broduct4"></a>
+              <p class="mt-4">Loose Textured T-Shirt</p>
+              <p class="big_text">$119.99</p>
+            </div>
+            <div class="swiper-slide ">
+              <a href="./final_2page_2.html" target="_self"><img
+                  src="./imges/broduct2.png" alt="broduct2"></a>
+              <p class="mt-4">Loose Knit 3/4 Sleeve</p>
+              <p class="big_text">$119.99</p>
+            </div>
+            <div class="swiper-slide ">
+              <a href="./final_2page_2.html" target="_self"><img
+                  src="./imges/broduct1.png" alt="broduct1"></a>
+              <p class="nsap">30%</p>
+              <p class="mt-4">T-Shirt Summer Vibes</p>
+              <p class="different">$89.99 <span class="text-black-50 px-5">$119.99</span></p>
+            </div>
+            <div class="swiper-slide">
+              <a href="./final_2page_2.html" target="_self"><img
+                  src="./imges/broduct3.png" alt="broduct3"></a>
+              <p class="mt-4">Basic Slim Fit T-Shirt</p>
+              <p class="big_text">$79.99</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="./final_2page_2.html" target="_self"><img
+                  src="./imges/broduct4.png" alt="broduct4"></a>
+              <p class="mt-4">Loose Textured T-Shirt</p>
+              <p class="big_text">$119.99</p>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Selected -->
+    <!-- Start Choose us -->
+    <div class="Choose_us overflow-x-hidden my-5">
+      <div class="container">
+        <h5 class="text-center my-5 ">Why should you choose us?</h5>
+        <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3  row-cols-xl-4 ">
+          <div class="mb-3"data-aos="fade-right" >
+            <i class="fas fa-truck-fast "></i>
+            <h5 class="mb-4">Free Shipping</h5>
+            <p class="text-black-50">All purchases over $199 are eligible for
+              free shipping via USPS First Class Mail.</p>
+          </div>
+          <div data-aos="fade-right">
+            <i class="fa-solid fa-hand-holding-hand"></i>
+            <h5 class="mb-4">Easy Payments</h5>
+            <p class="text-black-50">All payments are processed instantly over a
+              secure payment protocol.</p>
+          </div>
+          <div data-aos="fade-right">
+            <i class="fas fa-comment-dollar"></i>
+            <h5 class="mb-4">Money-Back Guarantee</h5>
+            <p class="text-black-50">If an item arrived damaged or you've
+              changed your mind, you can send it back for a full refund.</p>
+          </div>
+          <div data-aos="fade-right">
+            <i class="fa-solid fa-copy"></i>
+            <h5 class="mb-4">Finest Quality</h5>
+            <p class="text-black-50">Designed to last, each of our products has
+              been crafted with the finest materials.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Choose us -->
+    <!-- Start products-->
+    <div class="product "data-aos="fade-right">
+      <div class="container">
+        <h5 class="text-center my-5 fa-2x">Products in today</h5>
+        <div class="row row-cols-1 row-cols-lg-2  row-cols-md-2 row-cols-xl-4  ">
+          <div class="nsapPos ps-sm-5">
+            <a href><img src="./imges/broduct1.png" alt="broduct1"></a>
+            <p class="nsap">30%</p>
+            <p class="mt-4">T-Shirt Summer Vibes</p>
+            <p class="different">$89.99 <span class="text-black-50 px-2">$119.99</span></p>
+          </div>
+          <div>
+            <a href><img src="./imges/broduct2.png" alt="broduct2"></a>
+            <p class="mt-4">Loose Knit 3/4 Sleeve</p>
+            <p class="big_text ">$119.99</p>
+          </div>
+          <div>
+            <a href><img src="./imges/broduct3.png" alt="broduct3"></a>
+            <p class="mt-4">Basic Slim Fit T-Shirt</p>
+            <p class="big_text">$79.99</p>
+          </div>
+          <div>
+            <a href><img src="./imges/broduct4.png" alt="broduct4"></a>
+            <p class="mt-4">Loose Textured T-Shirt</p>
+            <p class="big_text">$119.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End products-->
+    <!-- Start Subscribe -->
+    <div class="Subscribe "data-aos="fade-right">
+      <div class="container">
+        <img src="./imges/footreImg.png" alt="footreImg">
+        <div class="d-flex justify-content-between ">
+          <p class="text-white">Subscribe to our newsletter and receive
+            exclusive offers every week</p>
+          <form>
+            <input class="border-0 email" type="email" name="email"
+              placeholder="Enter your email">
+            <button class="btn ">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Subscribe -->
+    <!-- Start Footer -->
+    <footer  data-aos="fade-right">
+      <div class="container">
+        <div class="row gap-4 ">
+          <div class="col-sm-12 col-md-7 col-xl-5 ">
+            <div class="img_logo"><img src="./imges/logo2.png" alt="logo2"><a
+                href><span>E-</span>Shop</a></div>
+            <p class="w-75 text-black-50">House My Brand designs clothing for
+              the young, the old & everyone in between – but most importantly,
+              for the fashionable</p>
+            <div class="icons">
+              <a href="https://ar-ar.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a
+                href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiYXIifQ%3D%3D%22%7D"><i
+                  class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/?hl=ar"> <i
+                  class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3  col-xl-2">
+            <h5 class="mb-5">Shopping online</h5>
+            <div>
+              <p>Order Status</p>
+              <p>Shipping and Delivery</p>
+              <p>Returns</p>
+              <p>Payment Options</p>
+              <p>Contact Us</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5 col-xl-2 ">
+            <h5 class="mb-5">Information</h5>
+            <div>
+              <p>Gift Cards</p>
+              <p>Find a store</p>
+              <p>Newsletter</p>
+              <p>Bacome a member</p>
+              <p>Site feedback</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5 col-xl-2 ">
+            <h5 class="mb-5">Contact</h5>
+            <div>
+              <p>store@uikit.com</p>
+              <p>Hotline: +1 131 138 138</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <hr>
+    <p class="text-black-50 text-center">DESIGN BY ICEO.CO - &copy; 2019. ALL
+      RIGHTS RESERVED.</p>
+    <div class="login">
+        <div class="login-list">
+          <div class="content">
+            <div class="content_head">
+              <button class="btn-close"></button>
+            </div>
+            <div class="content_body">
+              <div class="Login-Title">
+                <h2>Log in</h2>
+              </div>
+              <div class="content_LowHead">Welcome To Our Website Please
+                <br> Sing in or Sing up
+              </div>
+              <form action class="Inputs">
+                <input type="email" placeholder="E-mail"
+                  class="EmailInput" name="Email" required>
+                <input type="password" placeholder="Password"
+                  class="PassInput" name="Password" id="Pass" required>
+                <div class="HidePassSection"><img
+                    src="./imges/hidepass.png" alt
+                    class="HidePass"></div>
+                <div class="ForgotPassword">
+                </div>
+                <div class="CheckBox">
+                  <input type="checkbox" name="checkbox" id="C-box">
+                  <label for>
+                    <p class="KeepMe">Keep me signed in</p>
+                  </label>
+                </div>
+                <div class="SocialMediaNav">
+                  <a href="https://www.facebook.com/" class="FBlink">
+                    <div class="FBlinkContent">
+                      <img src="./imges/faceImge.png" alt>
+                      <p>Facebook</p>
+                    </div>
+                  </a>
+                  <a href="https://gmail.com/" class="GmailLink">
+                    <div class="GmailLinkContent">
+                      <img src="./imges/gmail.png" alt>
+                      <p>Gmail</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="SignInSection">
+                  <button class="SignIn">Sign in</button>
+                </div>
+              </form>
+              <div class="ResetPass">
+                <button class="active2">Forgot password?</button>
+                <div class="login-list2">
+                  <div class="content">
+                    <div class="content_head2">
+                      <button class="btn-close2">X</button>
+                    </div>
+                    <div class="content_body">
+                      <div class="Login-Title2">
+                        <h2>Forgot your password?</h2>
+                      </div>
+                      <div class="content_LowHead2">Enter your email or
+                        phone number <br>
+                        and recover your account
+                      </div>
+                      <form action class="Inputs">
+                        <input type="email" placeholder="E-mail"
+                          class="EmailInput" name="Email" required>
+                        <div class="OrLine">
+                          <div class="FirstLine"></div>
+                          <div class="OrWord"><p>OR</p></div>
+                          <div class="LastLine"></div>
+                        </div>
+                        <div class="SelectSection">
+                          <select name="ZipCodes" id="ZipCodes"
+                            class="SelectCodes">
+                            <option value="USA">USA +1</option>
+                            <option value="PS">Palestine +970</option>
+                            <option value="Jordan">Jordan +962</option>
+                            <option value="Egypt">Egypt +20</option>
+                          </select>
+                        </div>
+                        <div class="PhoneNumberSection">
+                          <input type="number" placeholder="Phone Number"
+                            class="PhoneInput" name="PhoneNumber" required>
+                        </div>
+
+                        <div class="RestPassword">
+                          <button class="RestBtn">Reset password</button>
+                        </div>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="FooterNav">
+                <div class="FirstNav">
+
+                  <p>Not a member yet?</p>
+
+                </div>
+                <div class="SecNav">
+                  <div class="navbar-nav ms-auto">
+                    <div class="SignUPlogin">
+                      <button class="active1">Sign up</button>
+                      <div class="login-list1">
+                        <div class="content">
+                          <div class="content_head">
+                            <button class="btn-close btn-close1"></button>
+                          </div>
+                          <div class="content_body">
+                            <div class="Login-Title1">
+                              <h2>Create an account and <br>
+                                discover the benefits</h2>
+                            </div>
+                            <div class="content_LowHead">Welcome To Our
+                              Website Please <br> Sing in or Sing up
+                            </div>
+                            <form action class="Inputs">
+                              <input type="text" name="FirstName" id
+                                placeholder="First Name"
+                                class="FirstNameInput" required>
+                              <input type="text" name=" LastName" id
+                                placeholder="Last Name"
+                                class="LastNameInput" required>
+                              <input type="email" placeholder="E-mail"
+                                class="EmailInput" name="Email" required>
+                              <input type="password"
+                                placeholder="Password" class="PassInput"
+                                name="Password" required>
+
+                              <div class="CheckBox">
+                                <input type="checkbox" name="checkbox"
+                                  id="C-box">
+                                <label for>
+                                  <h5 class="Agree">I agree to the Google
+                                    Terms of Service and <br>
+                                    Privacy Policy</h5>
+                                </label>
+                              </div>
+                              <div class="SignUpSection">
+                                <button class="SignUp">Sign up</button>
+                              </div>
+                            </form>
+
+                            <div class="FooterNav1">
+                              <div class="FirstNav1">
+                                <button class="BackForward">Are you
+                                  already a member?</button>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--* commpantes -->
+    <!-- product list -->
+    <div class="offcanvas "  id="cart">
+      <nav class="navbar navbar-expand-lg py-4 ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./imges/logo.png"
+              alt="logo"><img src="./imges/logo2.png" alt="logo2">E-Shop</a>
+          <div
+            class="nav-rigth order-0 order-lg-1 d-flex ms-auto align-items-center">
+            <button class="navbar-toggler order-1" type="button"
+              data-bs-toggle="collapse" data-bs-target="#nav_link"
+              aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="icons d-flex ms-auto">
+              <i class="fas fa-search"></i>
+              <a class="cartBtn text-decoration-none" data-bs-toggle="offcanvas"
+                href="#cart"
+                data-bs-target="#cart">
+                <i class="fas fa-cart-shopping "></i>
+                <div class="number">0</div>
+              </a>
+              <i class="fas fa-user User"></i>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse  " id="nav_link">
+            <ul class="navbar-nav ms-auto mx-auto">
+              <li class="nav-item">
+                <a class="nav-link Men" aria-current="page"
+                  href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kids</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="offcanvas-header">
+          <div class="d-flex justify-content-between align-items-center  w-100">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Shopping Cart</h5>
+            <div class="d-flex justify-content-between align-items-center">
+              <i class="fas fa-cart-shopping icon_colorHo"></i>
+              <div class="line_space"></div>
+              <i class="fas fa-truck icon_colorTr"></i>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas-body">
+          <div class="head_cart d-flex justify-content-between text-black-50 align-items-center">
+            <h6 >Product</h6>
+            <h6>Color</h6>
+            <h6>Size</h6>
+            <h6>Ammount</h6>
+            <h6>Price</h6>
+          </div>
+        </div>
+        <div class="offcanvas-footer  my-5 d-flex justify-content-between "> 
+            <div class="Continue_Shopping">
+              <i class="fas fa-arrow-left mt-1"></i>
+              <a href="./final_2page_2.html" class="btn">Continue Shopping</a>
+            </div>
+            <div class="Promo_Total d-flex align-items-center ">
+              <div class="Promo_Code d-flex text-black-50 me-5">
+                <p class=" me-5 ">Promo Code</p>
+                <i class="fas fa-paper-plane ms-5 mt-2"></i>
+              </div>
+              <div class="total d-flex align-items-center">
+                <p class="me-5 mt-2">Total</p>
+                <p class=" me-5 mt-2" ><span id="total">00.00</span>$</p>
+                <button class="CHECKOUT ms-5">CHECKOUT</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="offcanvas" id="mune">
+      <nav class="navbar navbar-expand-lg py-4 ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./imges/logo.png"
+              alt="logo"><img src="./imges/logo2.png" alt="logo2"><span class="corE">E</span>-Shop</a>
+          <div
+            class="nav-rigth order-0 order-lg-1 d-flex ms-auto align-items-center">
+            <button class="navbar-toggler order-1" type="button"
+              data-bs-toggle="collapse" data-bs-target="#nav_link"
+              aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="icons d-flex ms-auto">
+              <i class="fas fa-search"></i>
+              <a class="cartBtn text-decoration-none" data-bs-toggle="offcanvas"
+                href="#cart"
+                data-bs-target="#cart">
+                <i class="fas fa-cart-shopping "></i>
+              </a>
+              <i class="fas fa-user User"></i>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse  " id="nav_link">
+            <ul class="navbar-nav ms-auto mx-auto">
+              <li class="nav-item">
+                <a class="nav-link Men" aria-current="page"
+                href="#mune" data-bs-toggle="offcanvas" data-bs-target="#mune">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kids</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <div class="offcanvas-body">
+          <div class="container mt-5">
+            <div class="menu_row w-75 row row-cols-sm-2 row-cols-xl-4">
+              <div class="my-3">
+                <h6>Sale</h6>
+                <h6>Bestsellers</h6>
+                <h6>Latest Arrivals</h6>
+              </div>
+              <div class="my-3">
+                <h5>Shoes</h5>
+                <h6>Lifestyle</h6>
+                <h6>Running</h6>
+                <h6>Soccer</h6>
+                <h6>Basketball</h6>
+                <h6>Football</h6>
+                <h6>Golf</h6>
+                <h6>Baseball</h6>
+              </div>
+              <div>
+                <h5>Clothing</h5>
+                <h6>Pants</h6>
+                <h6>Hoodies & Sweatshirts</h6>
+                <h6>Jackets & Vests</h6>
+                <h6>Track Suits</h6>
+                <h6>Short Sleeve Shirts</h6>
+                <h6>T-Shirts</h6>
+                <h6>Jerseys</h6>
+                <h6>Shorts</h6>
+                <h6>Jeans</h6>
+              </div>
+              <div>
+                <h5>Accesorries</h5>
+                <h6>Backpacks</h6>
+                <h6>Caps & Hats</h6>
+                <h6>Watches</h6>
+                <h6>Belts</h6>
+                <h6>Bags</h6>
+                <h6>Wallets & Cases</h6>
+                <h6>Scarves</h6>
+                <h6>Glasses</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <button class="btn btn-outline-dark d-none gotoUP position-fixed end-0 bottom-0 translate-middle "><i class="fas fa-arrow-up"></i></button>
+    <!-- - commpantes -->
+    <script src="./JavaSe/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./JavaSe/final.js"></script>
+  </body>
+</html>
